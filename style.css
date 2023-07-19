@@ -348,6 +348,8 @@ height: 500px;
 }
 .section-footer{
     max-width: 1400px;
+    background: #0B0223;
+    height: 636px;
 
 }
 .footer-logo-title{
@@ -390,6 +392,43 @@ font-weight: 700;
 text-decoration: none;
 
 }
+.footer-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer-icon img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+    width: 57px;
+height: 40px;
+}
+.settings-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.settings-a{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+display: inline-flex;
+padding: 10px;
+align-items: flex-start;
+gap: 60px;
+
+}
+
+
+
+
 
 /* responsive */
 @media screen and (max-width:576px)
