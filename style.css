@@ -345,7 +345,7 @@ font-weight: 400;
 line-height: 30px; 
 }
 /* career */
-.careers{
+/* .careers{
     max-width: 1400px;
     margin-top: 200px;
     display: flex;
@@ -369,14 +369,7 @@ font-size: 48px;
 font-weight: 700;
 line-height: 60px; 
 
-}
-
- .game-option-container{
-    margin: 50px auto 0;
-    max-width: 1400px;
-    min-height: 50px;
-
-}
+} 
 .location1{
     display: flex;
     justify-content: center;
@@ -389,6 +382,15 @@ line-height: 60px;
     align-items: center;
     margin-left: 100px;
 }
+*/
+
+ .game-option-container{
+   margin-top: 200px;
+    max-width: 1400px;
+    min-height: 50px;
+
+}
+
 .game-option{
     display:grid ;
     grid-template-columns: repeat(5,1fr);
