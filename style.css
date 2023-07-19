@@ -346,22 +346,49 @@ line-height: 30px;
 }
 /* career */
 .careers{
+    max-width: 1400px;
     margin-top: 200px;
     display: flex;
-    padding:30px ;
+    justify-content:center;
+    align-items: center;
+    
 }
 .location{
     display: flex;
+    min-height: 50px;
     justify-content: space-between;
+    align-items: center;
+    gap: 50px;
     
 }
+.career-head{
+  
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
 
- /* .game-option-container{
+}
+
+ .game-option-container{
     margin: 50px auto 0;
     max-width: 1400px;
     min-height: 50px;
 
-} */
+}
+.location1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
 .game-option{
     display:grid ;
     grid-template-columns: repeat(5,1fr);
