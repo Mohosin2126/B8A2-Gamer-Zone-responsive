@@ -344,11 +344,11 @@ font-weight: 600;
 footer{
     margin-top: 100px;
 height: 500px;
-    /* background: #0B0223; */
+    background: #0B0223;
 }
 .section-footer{
     max-width: 1400px;
-    background: #0B0223;
+    /* background: #0B0223; */
     height: 636px;
 
 }
@@ -362,6 +362,7 @@ height: 500px;
 height: 40px;
 }
 .footer-title{
+    color: white;
     text-align: center;
     font-family: Work Sans;
     font-size: 45px;
