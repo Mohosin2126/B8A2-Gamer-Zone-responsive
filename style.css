@@ -453,6 +453,15 @@ line-height: 60px;
      
 
  }
+ .option:hover{
+    cursor: pointer;
+    border:2px solid red;
+    width: 243px;
+height: 80px;
+border-radius: 50px;
+background: #FFF;
+
+}
 
  /* footer */
  footer {
@@ -571,7 +580,7 @@ line-height: 60px;
  /* responsive */
   @media screen and (max-width:576px) {
     body{
-        max-width:100%;
+        max-width:1400px;
         }
     
      .nav-container {
